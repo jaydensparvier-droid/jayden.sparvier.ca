@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayden Sparvier - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="translations.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="site-name">Jayden Sparvier</div>
+        <div style="display: flex; gap: 0; margin-left: auto;">
+            <ul>
+                <li><a href="index.html" class="active" data-en="home" data-fr="home">Home</a></li>
+                <li><a href="universities.html" data-en="universityAchievements" data-fr="universityAchievements">University Achievements</a></li>
+                <li><a href="work-volunteer.html" data-en="workVolunteer" data-fr="workVolunteer">Work & Volunteer</a></li>
+                <li><a href="projects.html" data-en="projects" data-fr="projects">Projects</a></li>
+                <li><a href="high-school.html" data-en="highSchool" data-fr="highSchool">High School</a></li>
+                <li><a href="contact.html" data-en="contact" data-fr="contact">Contact</a></li>
+            </ul>
+            <button class="language-toggle" onclick="switchLanguage(localStorage.getItem('selectedLanguage') === 'en' ? 'fr' : 'en')" data-en="languageToggle" data-fr="languageToggle">Français</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 data-en="indexWelcome" data-fr="indexWelcome">Welcome to My Personal Website!</h1>
+        
+        <p data-en="indexGreeting" data-fr="indexGreeting">Hello! Welcome to my personal website. I'm Jayden Sparvier, and this site showcases my academic achievements, professional experience, volunteer work, projects, and academic accomplishments.</p>
+        
+        <h2 data-en="indexAboutMe" data-fr="indexAboutMe">About Me</h2>
+        <p data-en="indexAboutMeText" data-fr="indexAboutMeText">I am a dedicated and ambitious individual committed to continuous learning and personal growth. My journey through high school, university, and professional experiences has shaped me into a well-rounded professional with diverse skills and perspectives.</p>
+        
+        <h2 data-en="indexWhatYouFind" data-fr="indexWhatYouFind">What You'll Find Here</h2>
+        <ul style="margin-left: 2rem; margin-bottom: 1rem;">
+            <li><strong data-en="indexUniversityDesc" data-fr="indexUniversityDesc">University Achievements</strong></li>
+            <li><strong data-en="indexWorkDesc" data-fr="indexWorkDesc">Work & Volunteer Experience</strong></li>
+            <li><strong data-en="indexProjectsDesc" data-fr="indexProjectsDesc">Projects</strong></li>
+            <li><strong data-en="indexHighSchoolDesc" data-fr="indexHighSchoolDesc">High School Achievements</strong></li>
+            <li><strong data-en="indexContactDesc" data-fr="indexContactDesc">Contact Information</strong></li>
+        </ul>
+        
+        <p data-en="indexFooterText" data-fr="indexFooterText">Feel free to navigate through the different sections to learn more about my background, skills, and experiences. If you have any questions or would like to connect, please don't hesitate to reach out through the Contact page.</p>
+    </div>
+</body>
+</html>
