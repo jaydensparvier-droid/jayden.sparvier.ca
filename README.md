@@ -1,1 +1,1 @@
-a professional website for myself going into university studiesw and eventually, the job market
+a professional website for myself going into university studies and eventually, the job market. 
