@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High School Achievements - Jayden Sparvier</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="translations.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="site-name">Jayden Sparvier</div>
+        <div style="display: flex; gap: 0; margin-left: auto;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            <li><a href="universities.html">University Achievements</a></li>
+            <li><a href="work-volunteer.html">Work & Volunteer</a></li>
+              <li><a href="projects.html" data-en="projects" data-fr="projects">Projects</a></li>
+            <li><a href="high-school.html" class="active">High School</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="language-toggle" onclick="switchLanguage(localStorage.getItem('selectedLanguage') === 'en' ? 'fr' : 'en')">Français</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>High School Achievements</h1>
+        
+        <h2>Education</h2>
+       <h3>Sheldon Williams Collegiate- Regina, SK</h3>
+        <p><strong>Graduation Year:</strong> 2025</p>
+        <h3>Academic Honors</h3>
+        <ul style="margin-left: 2rem;">
+            <li>Honour Roll (2022-2025)</li>
+            <li>AP Psychology: Score 4</li>
+            <li>AP Biology: Score 3</li>
+            <li> AP English Literature and Composition: Score 2</li>
+
+        </ul>
+        
+        <h3>Extracurricular Activities</h2>
+         <ul style="margin-left: 2rem;">
+        <li>Varsity Boys Volleyball Team (2021-2024)</li>
+        <li>Varsity Team Handball (2022 and 2025)</li>
+        <li>Varsity Track and Field (2023-2025)</li>
+        <li>Varsity Badminton (2025)</li>
+        <li>Miller Concert Band (2021-2024)</li>
+        <h3>Extracurricular Awards</h3>
+        <li>Sheldon Senior Boys Volleyball Most Valuable Player (2025)</li>
+        <li>Sheldon Track and Field Leadership Award (2025)</li>
+        <li>Miller Mighty Marauder Silver Award (2022)</li>
+        
+    </div>
+</body>
+</html>

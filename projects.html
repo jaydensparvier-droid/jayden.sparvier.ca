@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Jayden Sparvier</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="translations.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="site-name">Jayden Sparvier</div>
+        <div style="display: flex; gap: 0; margin-left: auto;">
+            <ul>
+                <li><a href="index.html" data-en="home" data-fr="home">Home</a></li>
+                <li><a href="universities.html" data-en="universityAchievements" data-fr="universityAchievements">University Achievements</a></li>
+                <li><a href="work-volunteer.html" data-en="workVolunteer" data-fr="workVolunteer">Work & Volunteer</a></li>
+                <li><a href="projects.html" class="active" data-en="projects" data-fr="projects">Projects</a></li>
+                <li><a href="high-school.html" data-en="highSchool" data-fr="highSchool">High School</a></li>
+                <li><a href="contact.html" data-en="contact" data-fr="contact">Contact</a></li>
+            </ul>
+            <button class="language-toggle" onclick="switchLanguage(localStorage.getItem('selectedLanguage') === 'en' ? 'fr' : 'en')">Français</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Projects</h1>
+        <h3>My Work & Portfolio</h3>
+        
+        <p>Here are some of my notable projects and initiatives that showcase my skills, creativity, and problem-solving abilities.</p>
+        
+        <h2>Featured Projects</h2>
+        
+        <h3>Project 1: [Project Title]</h3>
+        <p><strong>Duration:</strong> [Start Date - End Date]</p>
+        <p><strong>Technologies/Tools:</strong> [List technologies used]</p>
+        <p><strong>Overview:</strong> Provide a brief overview of the project, what problem it solved, and the approach you took.</p>
+        <p><strong>Outcomes & Impact:</strong> Describe the results, metrics, or achievements from this project. What did you learn? What was the impact?</p>
+  
+
+        
+        
+        <h2>Get in Touch</h2>
+        <p>Interested in collaborating on a project or learning more about my work? Feel free to <a href="contact.html">contact me</a> with any inquiries.</p>
+    </div>
+</body>
+</html>
